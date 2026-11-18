@@ -4,6 +4,7 @@
 @section('subtitle', 'Data-data buku yang tersedia di perpustakaan')
  
 @section('content')
+@include('admin._alert')
   <div class="table-card-custom">
     <div class="table-responsive">
       <table class="table-custom">
